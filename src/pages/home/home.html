@@ -1,0 +1,29 @@
+<ion-content padding>
+  <video poster="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/polina.jpg" id="bgvid" playsinline autoplay muted loop>
+    <!-- WCAG general accessibility recommendation is that media such as background video play through only once. Loop turned on for the purposes of illustration; if removed, the end of the video will fade in the same way created by pressing the "Pause" button  -->
+    <source src="http://mirrors.standaloneinstaller.com/video-sample/star_trails.webm" type="video/webm">
+  </video>
+
+  <div id="polina">
+
+    <div class="login-user-image">
+      <img src="assets/imgs/login-user-image.png" alt="">
+    </div>
+
+    <ion-list>
+      <ion-item>
+        <ion-label>Username</ion-label>
+        <ion-input type="text"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label>Password</ion-label>
+        <ion-input type="password"></ion-input>
+      </ion-item>
+    </ion-list>
+
+    <button ion-button block color="dark">Sign in</button>
+
+    <p>Or use social network:</p>
+    <button ion-button block color="facebook">Sign in with Facebook</button>
+  </div>
+</ion-content>
